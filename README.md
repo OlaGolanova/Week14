@@ -19,12 +19,13 @@
     </form>
     
     ```
- 
-     const inputText = document.getElementsByName( "field" );   ///Создаем Псевдомассив и берем значение первого элемента 
+
+        ```jsx
+    const inputText = document.getElementsByName( "field" );   ///Создаем Псевдомассив и берем значение первого элемента 
      const inputTextValue = inputText[0].value;
      console.log(inputTextValue);  ////  Text field
-
-
+    
+    ```
 
     
 5. Какой результат работы данного скрипта?
@@ -32,7 +33,7 @@
     ```jsx
     let mas = new Array(2);
     mas[3] = 5;
-    console.log(mas[3]);   ///// 5
+    console.log(mas[3]);   /////5
     ```
     
 6. Какой результат работы данного скрипта?
