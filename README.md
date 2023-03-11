@@ -19,23 +19,20 @@
     </form>
     
     ```
-1)   const inputText = document.getElementsByName( "field" );   ///Создаем Псевдомассив и берем значение первого элемента
+ 
+     const inputText = document.getElementsByName( "field" );   ///Создаем Псевдомассив и берем значение первого элемента 
      const inputTextValue = inputText[0].value;
      console.log(inputTextValue);  ////  Text field
 
 
-Первый вариант сделала сама, а второй с помощью интернета
-2)  <form action="start.php" method="post" name="fld">
-        <input type="text" name="field" value="Text field">
-        <input type="submit" value="Старт" name="btn" onclick="alert(this.parentNode.field.value)">   <--//// при нажатии на кнопку выведет в alert значение в текстовом поле input -->
-    </form>
+
     
 5. Какой результат работы данного скрипта?
     
     ```jsx
     let mas = new Array(2);
     mas[3] = 5;
-    console.log(mas[3]);   /////5
+    console.log(mas[3]);   ///// 5
     ```
     
 6. Какой результат работы данного скрипта?
