@@ -19,7 +19,7 @@
     </form>
     
     ```
-    
+ 
      const inputText = document.getElementsByName( "field" );   ///Создаем Псевдомассив и берем значение первого элемента 
      const inputTextValue = inputText[0].value;
      console.log(inputTextValue);  ////  Text field
